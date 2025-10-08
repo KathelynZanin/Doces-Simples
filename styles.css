@@ -1,0 +1,124 @@
+.navbar-brand {
+            font-size: 3rem;
+            font-weight: bold;
+            color: transparent;
+            background: linear-gradient(to right, #ff3399, #7e0ec9);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        .navbar-brand:hover {
+            color: #e716ba;
+        }
+        .subtitulo {
+            font-size: 1.2rem;
+            color: #6c757d;
+        }    
+
+        .caixinha {
+            border: 2px solid #db349b;
+            border-radius: 15px;
+            padding: 20px;
+            background-color: #fef0ff;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(243, 66, 163, 0.281);
+        }
+
+        .card {
+            transition: transform 0.3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 400px;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+        
+        .selo {
+            border-radius: 5px;
+            padding: 3px 8px;
+            margin-bottom: 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #6c757d;
+            font-size: 0.8rem;
+            text-align: left;
+            width: fit-content;
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            margin-top: 15px;
+        }
+
+        .mb-4 {
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-primary {
+            margin-top: auto;
+            margin-bottom: 20px; /* Adiciona margem inferior */
+            padding: 10px 15px;
+            background-color: #db349b; /* Cor de fundo personalizada */
+            border-color: #db349b; /* Cor da borda personalizada */
+        }
+
+        .btn-primary:hover {
+            background-color: #e716ba; /* Cor ao passar o mouse */
+            border-color: #e716ba; /* Cor da borda ao passar o mouse */
+        }
+
+        .btn-container {
+            padding: 0 15px; /* Adiciona espaçamento lateral */
+        }
+
+        .btn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 15px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Estilo do footer */
+.footer {
+    padding: 20px; /* Padding interno */
+    background-color: #ff3399; /* Cor de fundo */
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    border-top: 2px solid #aa0d9d; /* Borda superior */
+}
+
+/* Estilo para links no footer */
+.footer a {
+    color: #61dafb; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilo para pequenos textos */
+.footer p {
+    margin: 10px 0; /* Margem acima e abaixo */
+    font-size: 14px; /* Tamanho da fonte */
+}
